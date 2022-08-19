@@ -1,0 +1,13 @@
+.header__conteiner {
+    @include container;
+
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    @include section;
+
+    border-bottom: 1px solid #ECECEC;
+    ;
+}

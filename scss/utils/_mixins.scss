@@ -1,0 +1,10 @@
+@mixin section($margin: auto) {
+    margin-left: $margin;
+    margin-right: $margin;
+}
+
+@mixin container($width: 1200px, $margin: 0 auto, $padding: 0 15px) {
+    width: $width;
+    margin: $margin;
+    padding: $padding;
+}
